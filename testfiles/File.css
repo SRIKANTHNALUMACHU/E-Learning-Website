@@ -1,0 +1,15 @@
+.okl {
+  width: 20vw;
+  height: 40vh;
+  background-color: aqua;
+  margin: 2vw;
+}
+.ok2 {
+  width: 20vw;
+  height: 40vh;
+  background-color: aqua;
+  margin: 2vw;
+}
+.lay {
+  display: inline-block;
+}
