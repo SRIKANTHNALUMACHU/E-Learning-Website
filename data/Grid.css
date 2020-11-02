@@ -1,0 +1,68 @@
+.flashcss {
+  background-color: rgba(85, 112, 233, 0.479);
+  width: 30%;
+  margin: 1%;
+  text-align: left;
+  height: 15vh;
+  display: inline-block;
+  padding: 1%;
+  overflow: scroll;
+  position: relative;
+}
+.flashcss:hover {
+  background-color: bisque;
+}
+.flashdiv {
+  width: 80%;
+  height: 50vh;
+  background-color: rgba(222, 202, 230, 0.568);
+  overflow: scroll;
+}
+.flashdiv:hover {
+  background-color: rgba(127, 255, 144, 0.616);
+}
+.gridhead {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: cursive, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+.gridname {
+  color: rgb(71, 53, 4);
+}
+.griddate {
+  position: absolute;
+  top: 12vh;
+  width: 100%;
+  margin-left: -3%;
+  padding: 1%;
+  color: beige;
+  font-weight: bold;
+  background: linear-gradient(
+    to bottom right,
+    rgba(5, 5, 85, 0.664),
+    rgba(216, 10, 44, 0.356)
+  );
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(125, 172, 233);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(7, 30, 241);
+}
+.lposts {
+  font-size: x-large;
+  color: antiquewhite;
+  background-color: rgba(95, 158, 160, 0.527);
+}

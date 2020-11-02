@@ -1,0 +1,57 @@
+.error {
+  color: brown;
+  font-size: 10vw;
+  animation-name: notid;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+.notfound {
+  color: aquamarine;
+  font-size: 6vw;
+  font-weight: bold;
+  animation-name: notfoundid;
+
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+.temper {
+  color: bisque;
+  font-size: 3vw;
+  font-weight: bold;
+  animation-name: funidnot;
+  animation-duration: 4s;
+}
+@keyframes funidnot {
+  0% {
+    margin: 100%;
+  }
+  100% {
+    margin: 0%;
+  }
+}
+@keyframes notid {
+  0% {
+    text-shadow: 0 0 10px #fc6500;
+  }
+  60% {
+    text-shadow: 0 0 10px #816cf7, 0 0 30px #373fac, 0 0 50px #1900ff,
+      0 0 70px #eeff00;
+  }
+  100% {
+    text-shadow: 0 0 10px #fc6500;
+  }
+}
+@keyframes notfoundid {
+  0% {
+    margin-left: 0px;
+  }
+  40% {
+    margin-left: 40px;
+  }
+  80% {
+    margin-left: -40px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
