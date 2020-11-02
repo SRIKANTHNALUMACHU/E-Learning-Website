@@ -1,0 +1,28 @@
+.bar {
+  padding: 5%;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(64, 99, 255, 0.4);
+}
+.bar:hover {
+  background-color: rgba(64, 99, 255, 0.9);
+  transition-duration: 5s;
+}
+.baritems {
+  text-decoration: none;
+  padding: 2%;
+  margin: 2%;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.534);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.liquid {
+  background-color: chartreuse;
+  position: relative;
+}
+.baritems:hover {
+  background-color: rgba(13, 252, 25, 0.6);
+  transition-duration: 0.8s;
+}
