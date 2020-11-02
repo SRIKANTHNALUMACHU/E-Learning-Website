@@ -1,0 +1,51 @@
+.lay {
+  display: inline-flex;
+  text-align: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    to bottom right,
+    rgba(67, 67, 194, 0.5),
+    rgba(248, 160, 175, 0.5)
+  );
+}
+.lay1 {
+  width: 15vw;
+  display: block;
+  margin-top: 10vh;
+}
+.lay2 {
+  width: 64vw;
+}
+.lay3 {
+  width: 20vw;
+}
+html {
+  min-height: 100%;
+}
+.baritem {
+  text-decoration: none;
+  padding: 8%;
+  margin: 2%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.534);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.baritem1 {
+  text-decoration: none;
+  padding: 4%;
+  margin: 2%;
+  width: fit-content;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.534);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.baritem1:hover {
+  background-color: rgba(15, 224, 26, 0.5);
+}
+.baritem:hover {
+  background-color: rgba(15, 224, 26, 0.5);
+}

@@ -1,0 +1,57 @@
+html {
+  min-height: 100%;
+}
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgba(67, 67, 194, 0.5),
+    rgba(248, 160, 175, 0.5)
+  );
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./login78.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*
+body:hover {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+*/
+.baritems59 {
+  text-decoration: none;
+  padding: 2%;
+  margin: 2%;
+
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.534);
+  font-weight: bold;
+  border-radius: 12%;
+  color: rgb(255, 255, 255);
+}
+.baritems60 {
+  display: block;
+}
+.baritems59:hover {
+  background-color: rgba(13, 252, 25, 0.6);
+  transition-duration: 0.8s;
+}
+input:hover {
+  background-color: rgba(211, 100, 100, 0.541);
+}
+.vijay7 {
+  background-color: rgba(0, 0, 0, 0.144);
+}
+.vijay77 {
+  background-color: rgba(134, 0, 0, 0.514);
+  width: 40%;
+  height: 20vw;
+}

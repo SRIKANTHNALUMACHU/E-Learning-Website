@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css">
+.abc
+{
+display:table-cell;
+border:10px solid black;
+padding:20px;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<div id="div1" class="abc">
+Div1
+<div id= "div2" class="abc">
+Div2
+<div id="div3" class="abc">
+Div3
+</div>
+</div>
+</div>
+<script>
+var element=document.getElementsByTagName('div');
+for(var i=0;i<element.length;i++)
+{
+element[i].onclick=function()
+{
+if(event.stopPropagation)
+{
+event.stopPropagation();
+}
+this.style.borderColor="pink";
+alert(this.getAttribute("id") + "background changed");
+}
+}
+</script>
+</body>
+</html>
