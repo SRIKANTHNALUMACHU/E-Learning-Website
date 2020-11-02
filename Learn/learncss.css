@@ -1,0 +1,121 @@
+.reactleimg {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./react1.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: aliceblue;
+  padding: 30vh;
+}
+.reactilehead {
+  display: block;
+  color: rgb(250, 250, 250);
+  font-weight: bold;
+  font-size: 4vh;
+  border-radius: 20px;
+  background-color: rgba(22, 82, 32, 0.664);
+}
+.bodyjava {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./java1.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: aliceblue;
+  padding: 30vh;
+}
+
+.bodyas {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./android1.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: aliceblue;
+  padding: 30vh;
+}
+
+.bodydb {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./dbms1.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: aliceblue;
+  padding: 30vh;
+}
+
+.anskillcss {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./analy1.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: aliceblue;
+  padding: 30vh;
+}
+
+.bodyele {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./python1.jpeg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  color: aliceblue;
+  padding: 30vh;
+}
+.bar345 {
+  padding: 1%;
+  width: 100%;
+  margin-top: 5px;
+  background-image: linear-gradient(
+      rgba(150, 10, 10, 0.5),
+      rgba(132, 0, 255, 0.5)
+    ),
+    url("./android1.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(64, 99, 255, 0.5);
+  border-bottom: solid 4px #eb0b0b;
+}
+.baritem345 {
+  text-decoration: none;
+  padding: 4%;
+  margin: 2%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.534);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  transition-duration: 1s;
+}
+.baritem345:hover {
+  background-color: #0beb43a6;
+  font-weight: bolder;
+}
