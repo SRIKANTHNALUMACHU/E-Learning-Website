@@ -1,0 +1,84 @@
+.Layout {
+  background-color: rgba(12, 23, 222, 0.3);
+  text-align: left;
+  display: block;
+  border-radius: 5px;
+  padding: 3%;
+}
+.Layouts {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: left;
+  display: block;
+  border-radius: 5px;
+  padding: 3%;
+}
+.headgfr {
+  display: inline-flex;
+  border-radius: 20px;
+  padding-left: 10%;
+  width: 100%;
+  color: rgb(177, 214, 247);
+  font-weight: bolder;
+  background-color: rgba(14, 13, 13, 0.493);
+  padding: 2% 0px;
+}
+.headgfr:last-child {
+  text-align: right;
+}
+.byid {
+  margin: auto;
+}
+.publishid {
+  margin: auto;
+}
+.h11 {
+  font-family: cursive, Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  border-bottom: 2px solid turquoise;
+  background-color: transparent;
+  font-size: 8vw;
+}
+.h112 {
+  font-family: cursive, Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  border-bottom: 2px solid turquoise;
+  background-color: transparent;
+}
+.p1 {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Times New Roman", Times,
+    serif;
+  background-color: rgba(251, 255, 0, 0.4);
+  width: 35vw;
+  height: 40vh;
+  word-break: break-all;
+  margin-right: 1vw;
+}
+.p11 {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(251, 255, 0, 0.4);
+  width: 35vw;
+  margin-right: 1vw;
+}
+.img {
+  background-color: rosybrown;
+  width: 20vw;
+  height: 40vh;
+}
+.cont {
+  display: block;
+}
+.button1 {
+  background-color: rgba(8, 20, 250, 0.5);
+  color: aliceblue;
+  float: left;
+}
+.button156 {
+  padding: 1% 5%;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  margin: auto;
+  float: left;
+}
